@@ -1,0 +1,45 @@
+<nav>
+    <div class="navbar-container">
+        <div class="navbar-logo" (click)="scroll('home')">
+            <img src="assets/logo.png"/>
+            NETIA
+        </div>
+        <div class="menu-icon">
+            <mat-icon (click)="toggleSidebar()">menu</mat-icon>
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-menu-item">
+                <div class="nav-link" (click)="scroll('home')">
+                    Home
+                </div>
+            </li>
+            <li class="navbar-menu-item">
+                <div class="nav-link" (click)="scroll('packets')">
+                    Pakiety
+                </div>
+            </li>
+            <li class="navbar-menu-item">
+                <div class="nav-link">
+                    Internet
+                </div>
+            </li>
+            <li class="navbar-menu-item">
+                <div class="nav-link">
+                    Telewizja
+                </div>
+            </li>
+            <li class="navbar-menu-item">
+                <div class="nav-link">
+                    Telefonia
+                </div>
+            </li>
+            <li class="navbar-menu-item">
+                <div class="nav-link" (click)="scroll('contact')">
+                    Kontakt
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<app-sidebar (toggleSidebar)="toggleSidebar()" @fadeAnimation *ngIf="isSidebarVisible"></app-sidebar>

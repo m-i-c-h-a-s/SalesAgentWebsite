@@ -1,0 +1,43 @@
+.sidebar-container
+    position: fixed
+    z-index: 999
+    width: 100vw
+    height: 100vh
+    background: #0d0d0d
+    display: grid
+    align-items: center
+    top: 0
+    left: 0
+    opacity: 100%
+    top: 0
+
+.close-icon
+    color: #fff
+    display: block
+    position: absolute
+    top: 0
+    right: 0
+    transform: translate(-120%, 100%)
+    font-size: 1.8rem
+    cursor: pointer
+
+.sidebar-menu
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(6, 80px)
+    text-align: center
+
+    @media screen and (max-width: 480px)
+        grid-template-rows: repeat(6, 60px)
+
+.sidebar-link
+    color: #fff
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.5rem
+    text-decoration: none
+    list-style: none
+
+.sidebar-link:hover
+    color: #ec1198

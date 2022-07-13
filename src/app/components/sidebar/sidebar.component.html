@@ -1,0 +1,25 @@
+<div class="sidebar-container">
+    <div class="close-icon">
+        <mat-icon (click)="toggleSidebar.emit()">close</mat-icon>
+    </div>
+    <div class="sidebar-menu">
+        <div class="sidebar-link" (click)="scroll('home')">
+            Home
+        </div>
+        <div class="sidebar-link" (click)="scroll('packets')">
+            Pakiety
+        </div>
+        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+            Internet
+        </div>
+        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+            Telewizja
+        </div>
+        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+            Telefonia
+        </div>
+        <div class="sidebar-link" (click)="scroll('contact')">
+            Kontakt
+        </div>
+    </div>
+</div>

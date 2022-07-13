@@ -1,0 +1,47 @@
+<div class="packets-container">
+    <h1 class="packets-header" data-aos="zoom-in" data-aos-duration="700">Pakiety - internet, telewizja i telefon</h1>
+    <div class="packets-list">
+        <div class="packet"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let packet of packetsData"
+        >
+            <div class="packet-header" [ngStyle]="{'backgroundColor': packet.color}">
+                <h1>{{ packet.header }}</h1>
+                <p>{{ packet.subHeader }}</p>
+            </div>
+            <div class="packet-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': packet.color}">
+                        {{ packet.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <p>
+                    <mat-icon>task_alt</mat-icon>
+                    <span>{{ packet.periodWithoutSubscription }}</span>
+                </p>
+                <hr>
+                <p>
+                    <mat-icon>tv</mat-icon>
+                    <span>{{ packet.tvPacket }}</span>
+                </p>
+                <hr>
+                <p>
+                    <mat-icon>inbox</mat-icon>
+                    <span>{{ packet.decoder }}</span>
+                </p>
+                <div *ngFor="let extra of packet.extras">
+                    <hr>
+                    <p>
+                        <mat-icon>add_circle_outline</mat-icon>
+                        <span>{{ extra }}</span>
+                    </p>
+                </div>
+            </div>
+            <div class="packet-footer">
+                <button (click)="scroll('contact')">Zadzwoń i zamów!</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+{
+    "packets": [
+        {
+            "header": "300 Mb/s + TV M 4K",
+            "subHeader": "Upload do 50 Mb/s",
+            "price": "65zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Giganagrywarka Basic w cenie!",
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "1 Gb/s + TV S 4K",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "75zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV S (77 kanałów)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "600 Mb/s + TV M 4K",
+            "subHeader": "Upload do 100 Mb/s",
+            "price": "75zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Giganagrywarka Basic w cenie!",
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#df0b8e"
+        },
+        {
+            "header": "1 Gb/s + TV M 4K",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "85zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Giganagrywarka Basic w cenie!",
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#009DF9"
+        },
+        {
+            "header": "1 Gb/s + TV L 4K",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "110zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV L (187 kanałów + 2 Cinemax)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Giganagrywarka Basic w cenie!",
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "600 Mb/s + TV M 4K",
+            "subHeader": "Upload do 100 Mb/s",
+            "price": "95zł",
+            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
+            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+            "decoder": "Dekoder Evobox 4K",
+
+            "extras" : [
+                "Giganagrywarka Basic w cenie!",
+                "Disney+ 12 miesięcy za 0zł"
+            ],
+
+            "color": "#009DF9"
+        }
+    ]
+}
