@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { fadeAnimation } from './fadeAnimation';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -12,13 +13,19 @@ export class NavbarComponent implements OnInit {
 
   isSidebarVisible: boolean = false;
 
-  constructor(public scroller: ViewportScroller) { }
+  constructor(public scroller: ViewportScroller,
+              public router: Router) { }
 
   ngOnInit(): void {
   }
 
   scroll(target: string) {
-    this.scroller.scrollToAnchor(target);
+    if (this.router.url === '/')
+      this.scroller.scrollToAnchor(target);
+    else {
+      this.router.navigate(['/']);
+      // this.scroller.scrollToAnchor(target);
+    }
   }
 
   toggleSidebar() {

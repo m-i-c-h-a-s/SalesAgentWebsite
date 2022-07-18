@@ -1,0 +1,115 @@
+<app-navbar></app-navbar>
+
+<div class="internet-container">
+    <h1 class="internet-header" data-aos="fade-down" data-aos-duration="300">Internet stacjonarny</h1>
+    <h1 class="offers-header" data-aos="zoom-in" data-aos-duration="700">Oferta na 24 miesiące</h1>
+    <div class="offers-list">
+        <div class="offer"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let offer of internet24MonthsOffers"
+        >
+            <div class="offer-header" [ngStyle]="{'backgroundColor': offer.color}">
+                <h1>{{ offer.header }}</h1>
+                <p>{{ offer.subHeader }}*</p>
+            </div>
+            <div class="offer-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': offer.color}">
+                        {{ offer.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <div *ngFor="let extra of offer.extras; let i = index">
+                    <p>
+                        <mat-icon>add_circle_outline</mat-icon>
+                        <span>{{ extra }}</span>
+                    </p>
+                    <hr *ngIf="i < offer.extras.length-1">
+                </div>
+            </div>
+            <div class="offer-footer">
+                <button>Zadzwoń i zamów!</button>
+            </div>
+        </div>
+
+        <div class="offer-terms" data-aos="zoom-in" data-aos-duration="700">
+            {{ internet24MonthsOfferTerms }}
+        </div>
+    </div>
+
+
+    <h1 class="offers-header" data-aos="zoom-in" data-aos-duration="700">Oferta bezterminowa</h1>
+    <div class="offers-list">
+        <div class="offer"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let offer of internetTermlessOffers"
+        >
+            <div class="offer-header" [ngStyle]="{'backgroundColor': offer.color}">
+                <h1>{{ offer.header }}</h1>
+                <p>{{ offer.subHeader }}*</p>
+            </div>
+            <div class="offer-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': offer.color}">
+                        {{ offer.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <div *ngFor="let extra of offer.extras; let i = index; ">
+                    <p>
+                        <mat-icon>add_circle_outline</mat-icon>
+                        <span>{{ extra }}</span>
+                    </p>
+                    <hr *ngIf="i < offer.extras.length-1">
+                </div>
+            </div>
+            <div class="offer-footer">
+                <button>Zadzwoń i zamów!</button>
+            </div>
+        </div>
+
+        <div class="offer-terms" data-aos="zoom-in" data-aos-duration="700">
+            {{ internetTermlessOfferTerms }}
+        </div>
+    </div>
+
+    <h1 class="internet-header" data-aos="fade-down" data-aos-duration="300">Korzyści z oferty</h1>
+    <div class="offer-benefits">
+        <div class="benefit" data-aos="fade-up" data-aos-duration="800">
+            <div class="benefit-element">
+                <img src="https://www.netia.pl/Netia/media/Netia/oferta/produkty-dodatkowe/grafiki/ruter-wifi/router-wifi-455x455.png?ext=.png" alt="img">
+            </div>
+            <div class="benefit-element">
+                <div class="benefit-element-text">
+                    <h1>Router WiFi</h1>
+                    <p>Router Wi-Fi dostajesz od nas bezpłatnie na czas trwania umowy</p>
+                    <ul>
+                        <li>bezprzewodowy Internet w całym domu i przewodowe połączenie bez opóźnień,</li>
+                        <li>cyfrowy dom czyli współdzielenie plików i strumieniowanie multimediów,</li>
+                        <li>łatwa i szybka instalacja.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="benefit" data-aos="fade-up" data-aos-duration="800">
+            <div class="benefit-element">
+                <div class="benefit-element-text">
+                    <h1>Bezpieczny internet</h1>
+                    <ul>
+                        <li>pakiet antywirusowy na komputer, tablet i smartfon,</li>
+                        <li>dwie licencje,</li>
+                        <li>bezpieczne zakupy online,</li>
+                        <li>ochrona rodzicielska.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="benefit-element">
+                <img src="https://www.netia.pl/Netia/media/Netia/oferta/produkty-dodatkowe/grafiki/bezpieczny-internet/bezpieczny-internet.png?ext=.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

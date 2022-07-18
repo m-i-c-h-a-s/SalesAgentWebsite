@@ -3,16 +3,16 @@
         <mat-icon (click)="toggleSidebar.emit()">close</mat-icon>
     </div>
     <div class="sidebar-menu">
-        <div class="sidebar-link" (click)="scroll('home')">
+        <div class="sidebar-link" (click)="scroll('home')" routerLink="/">
             Home
         </div>
         <div class="sidebar-link" (click)="scroll('packets')">
             Pakiety
         </div>
-        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+        <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/internet">
             Internet
         </div>
-        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+        <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/telewizja">
             Telewizja
         </div>
         <div class="sidebar-link" (click)="toggleSidebar.emit()">

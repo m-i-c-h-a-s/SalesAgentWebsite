@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+
+<div class="tv-container">
+    <h1 class="tv-header" data-aos="fade-down" data-aos-duration="300">Pakiety telewizji</h1>
+    <div class="tv-packets-list">
+        <h1 class="packets-header">Rozpiski kanałów</h1>
+        <div class="tv-packet" *ngFor="let packet of tvPacketsData">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h1>
+                            <mat-icon>tv</mat-icon>
+                            {{ packet.name }}
+                        </h1>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <h2>{{ packet.numberOfChannels }}</h2>
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+
+                <div class="channels-list">
+                    <ul>
+                        <li *ngFor="let channel of packet.channelsList">{{ channel }}</li>
+                    </ul>
+                </div>
+            </mat-expansion-panel>
+        </div>
+    </div>
+
+</div>
+
+<app-footer></app-footer>

@@ -89,5 +89,110 @@
 
             "color": "#009DF9"
         }
-    ]
+    ],
+
+    "tvPackets": [
+        {
+            "name": "Pakiet S",
+            "numberOfChannels": "77 kanałów",
+            "channelsList": [
+                "POLSAT","POLSAT2","TVN","TVN SIEDEM","TVP 1","TVP 2","TV PULS","PULS 2","TV 4","TV 6","TVP ROZRYWKA","TVP KULTURA","TVP POLONIA","TTV","TV OKAZJA","TVS","TV TRWAM","ZOOM TV","WP","METRO","POLSAT VIASAT NATURE","FOKUS TV","TVP HISTORIA","POLSAT VIASAT HISTORY","POLSAT DOKU","POLSAT SPORT","POLSAT SPORT EXTRA","TVP SPORT","SUPER POLSAT","POLSAT SPORT NEWS","POLSAT SPORT FIGHT","POLSAT PLAY","POLSAT VIASAT EXPLORE","POLSAT GAMES","POLSAT CAFE","POLSAT RODZINA","CI POLSAT","POLSAT JIM JAM","TVP ABC","POLSAT SERIALE","POLSAT COMEDY CENTRAL EXTRA","POLSAT FILM","STOPKLATKA TV","POLSAT NEWS","POLSAT NEWS 2","TVP INFO","SUPERSTACJA","POLSAT MUSIC","POLO TV","ESKA TV","ESKA EXTRA TV","DISCO POLO MUSIC","ESKA ROCK TV","VOX MUSIC TV","LUBELSKA TV","NTL","TVT","DLACIEBIE.TV","TV REGIONALNA","TELEWIZJA KŁODZKA"
+            ]
+        },
+        {
+            "name": "Pakiet M",
+            "numberOfChannels": "99 kanałów",
+            "channelsList": [
+                "POLSAT","POLSAT 2","TVN","TVN SIEDEM","TVP 1","TVP 2","TV PULS","PULS 2","TV 4","TV 6","TVP ROZRYWKA","TVP KULTURA","TVP POLONIA","TTV","TV OKAZJA","TVS","TV TRWAM","ZOOM TV","NOWA TV","WP","METRO","POLSAT VIASAT NATURE","FOKUS TV","TVP HISTORIA","POLSAT VIASAT HISTORY","POLSAT DOKU","POLSAT SPORT","POLSAT SPORT EXTRA","TVP SPORT","SUPER POLSAT","POLSAT SPORT NEWS","POLSAT SPORT FIGHT","POLSAT PLAY","POLSAT VIASAT EXPLORE","POLSAT GAMES","POLSAT CAFE","POLSAT RODZINA","CI POLSAT","POLSAT JIM JAM","TVP ABC","POLSAT SERIALE","POLSAT COMEDY CENTRAL EXTRA","POLSAT FILM","STOPKLATKA TV","POLSAT NEWS","POLSAT MUSIC","POLO TV","ESKA TV","ESKA EXTRA TV","DISCO POLO MUSIC","ESKA ROCK TV","VOX MUSIC TV","LUBELSKA TV","NTL","TVT","DLACIEBIE.TV","TV REGIONALNE","TELEWIZJA KŁODZKA","TVN 24","TVN 24 TURBO","TVN STYLE","HCTV","ANIMAL PLANET","DISCOVERY CHANNEL","DISCOVERY SCIENCE","DISCOVERY HISTORIA","EUROSPORT","EUROSPORT2","DTX","TVP","TLC","ID","DISCOVERY LIFE","FOOD NETWORK","TVP SERIALE","TVP FABUŁA","TV REPUBLIKA","WPOLSCE.PL","CINEMAX","CINEMAX 2"
+            ]
+        },
+        {
+            "name": "Pakiet L",
+            "numberOfChannels": "187 kanałów",
+            "channelsList": [
+                "POLSAT","POLSAT 2","TVN","TVN SIEDEM","TVP 1","TVP 2","TV PULS","PULS 2","TV 4","TV 6","TVP ROZRYWKA","TVP KULTURA","TVP POLONIA","TTV","TV OKAZJA","TVS","TV TRWAM","ZOOM TV","NOWA TV","WP","METRO","POLSAT VIASAT NATURE","FOKUS TV","TVP HISTORIA","POLSAT VIASAT HISTORY","POLSAT DOKU","POLSAT SPORT","POLSAT SPORT EXTRA","TVP SPORT","SUPER POLSAT","POLSAT SPORT NEWS","POLSAT SPORT FIGHT","POLSAT PLAY","POLSAT VIASAT EXPLORE","POLSAT GAMES","POLSAT CAFE","POLSAT RODZINA","CI POLSAT","POLSAT JIM JAM","TVP ABC","POLSAT SERIALE","POLSAT COMEDY CENTRAL EXTRA","POLSAT FILM","STOPKLATKA TV","POLSAT NEWS","POLSAT MUSIC","POLO TV","ESKA TV","ESKA EXTRA TV","DISCO POLO MUSIC","ESKA ROCK TV","VOX MUSIC TV","LUBELSKA TV","NTL","TVT","DLACIEBIE.TV","TV REGIONALNE","TELEWIZJA KŁODZKA","TVN 24","TVN 24 TURBO","TVN STYLE","HCTV","ANIMAL PLANET","DISCOVERY CHANNEL","DISCOVERY SCIENCE","DISCOVERY HISTORIA","EUROSPORT","EUROSPORT2","DTX","TVP","TLC","ID","DISCOVERY LIFE","FOOD NETWORK","TVP SERIALE","TVP FABUŁA","TV REPUBLIKA","WPOLSCE.PL","CINEMAX","CINEMAX 2","TELE 5","POLONIA 1","TVR HD","NAT GEO WILD","DA VINCI LEARNING","WATER PLANET","NATIONAL GEOGRAPHIC","BBC FRIST","BBC EARTH","HISTORY","HISTORY2","BBC BRIT","EXTREME SPORT CHANNEL","GOLF CHANNEL POLSKA","ACTIVE FAMILY","E! ENTERTAINMENT","BBC LIFESTYLE","NAT GEO PEOPLE","LIFETIME","BBC CBEEBIES","NICK JR.","BOOMERANG","DUCK TV","DISNEY JUNIOR","DISNEY CHANNEL","DISNEY XD","CARTOON NETWORK","NICKTOONS","NICKELODION POLSKA","RED CARPET TV","NOVELA TV","AXN","AXN SPIN","AXN BLACK","AXN WHITE","COMEDY CENTRAL","FOX","FOX COMEDY","13 ULICA","SCIFI","EPIC DRAMA","AMC","CBS REALITY","ROMANCE TV","KINO POLSKA","TNT","SUNDANCE CHANNEL","CBS EUROPE","PARAMOUNT CHANNEL","KINO TV","BBC WORD NEWS","SKY NEWS","EURONEWS","CNN","FRANCE 24 ANG","FRANCE 24 FRA","DW-TV","RUSSIA-TODAY DOC","RUSSIA-TODAY","AL JAZEERA","EURONEWS PLIS","ENGLISH CLUB TV","EUROCHANNEL","RTL","RTL2","VOX","SUPER RTL","ARTE","TVSMONDE","CHANNEL ON RUSSIA","4FUN.TV","4FUN DANCE","4FUN KIDS","NICKMUSIC","MTV POLSKA","CLUB MTV","MTV HITS","MTV 90S","MTV LIVE","STARS TV","VH1","MTV 80S","KINO POLSKA MUZYKA","GOLD TV"
+            ]
+        }
+    ],
+
+    "internet24MonthsOffers": [
+        {
+            "header": "Internet 300 Mb/s",
+            "subHeader": "Upload do 50 Mb/s",
+            "price": "50zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "Internet 600 Mb/s",
+            "subHeader": "Upload do 100 Mb/s",
+            "price": "60zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#009DF9"
+        },
+        {
+            "header": "Internet 1 Gb/s",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "70zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#df0b8e"
+        }
+    ],
+
+    "internetTermlessOffers": [
+        {
+            "header": "Internet 300 Mb/s",
+            "subHeader": "Upload do 50 Mb/s",
+            "price": "60zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "Internet 600 Mb/s",
+            "subHeader": "Upload do 100 Mb/s",
+            "price": "70zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#009DF9"
+        },
+        {
+            "header": "Internet 1 Gb/s",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "80zł",
+
+            "extras" : [
+                "Router WiFi bezpłatnie na czas korzystania z umowy",
+                "Bezpieczny internet"
+            ],
+
+            "color": "#df0b8e"
+        }
+    ],
+
+    "internet24MonthsOfferTerms" : "„Prezentowane oferty Netii S.A.: „GigaEmocje II – rabat 3 mies.”, „GigaEmocje II” obowiązują przy zawarciu Umowy na czas określony 24 pełnych Okresów Rozliczeniowych, przy jednoczesnym korzystaniu z rabatów za e-fakturę (5 zł) oraz zgody marketingowe (5 zł). W przypadku rezygnacji lub niespełnienia warunków przyznania rabatów, cena wzrośnie o 10 zł. Szybki Internet Max (300, 600, 1000) stanowi wyłącznie nazwę marketingową. Do Pakietu M / M 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe 6 kanałów: Nick Jr., Nickelodeon Polska, Nicktoons, TeenNick, Cinemax, Cinemax 2. Do Pakietu L / L 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe 2 kanały: Cinemax, Cinemax 2. Do Pakietów S 4K, M 4K, L 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe dodatkowo kanał Insight TV 4K. Usługa Internetowa oparta jest na parametrach jakości wynikających z maksymalnych parametrów technicznych danej technologii, w jakiej świadczona jest Usługa Internetowa lub wynikających z ofertowych ustawień technicznych łącza. Parametry świadczenia Usługi Internetowej, w szczególności parametry prędkości oraz wpływu innych Usług na Usługę Internetową, dostępne są na stronie netia.pl. Najlepszy Internet 5G w Polsce odnosi się do najwyższej technologicznej prędkości Internetu 5G (dzięki wykorzystaniu pasma 2600 MHz TDD) i największego zasięgu populacyjnego.” *Podana przepustowość nie dotyczy technologii HFC i CU.",
+    "internetTermlessOfferTerms" : "Prezentowana oferta Netii S.A.: „GigaEmocje II – Internet bez zobowiązania” obowiązuje przy zawarciu Umowy na czas nieokreślony, przy jednoczesnym korzystaniu z rabatu za e-fakturę (5 zł) oraz zgody marketingowe (5 zł). W przypadku rezygnacji lub niespełnienia warunków przyznania rabatów, cena wzrośnie o 10 zł. Prezentowana oferta nie uwzględnia cen za Usługi dodatkowe. Warunkiem skorzystania z Promocji jest zamówienie Usługi Internetowej z usługą Bezpieczny Internet 2. Szybki Internet Max (300, 600, 1000) stanowi wyłącznie nazwę marketingową. Usługa Internetowa oparta na parametrach jakości wynikających z maksymalnych parametrów technicznych danej technologii, w jakiej świadczona jest Usługa Internetowa, lub wynikających z ofertowych ustawień technicznych łącza. Parametry świadczenia Usługi Internetowej, w szczególności parametry prędkości oraz wpływu innych usług na Usługę Internetową, dostępne są na stronie netia.pl. *Podana przepustowość nie dotyczy technologii HFC i CU."
 }
