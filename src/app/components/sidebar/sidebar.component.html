@@ -6,7 +6,7 @@
         <div class="sidebar-link" (click)="scroll('home')" routerLink="/">
             Home
         </div>
-        <div class="sidebar-link" (click)="scroll('packets')">
+        <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/pakiety">
             Pakiety
         </div>
         <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/internet">
@@ -15,10 +15,10 @@
         <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/telewizja">
             Telewizja
         </div>
-        <div class="sidebar-link" (click)="toggleSidebar.emit()">
+        <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/telefon">
             Telefonia
         </div>
-        <div class="sidebar-link" (click)="scroll('contact')">
+        <div class="sidebar-link" (click)="toggleSidebar.emit()" routerLink="/kontakt">
             Kontakt
         </div>
     </div>

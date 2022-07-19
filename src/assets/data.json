@@ -1,92 +1,170 @@
 {
     "packets": [
         {
-            "header": "300 Mb/s + TV M 4K",
-            "subHeader": "Upload do 50 Mb/s",
-            "price": "65zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Giganagrywarka Basic w cenie!",
-                "Disney+ 12 miesięcy za 0zł"
-            ],
-
-            "color": "#00D5A7"
-        },
-        {
-            "header": "1 Gb/s + TV S 4K",
-            "subHeader": "Upload do 300 Mb/s",
-            "price": "75zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV S (77 kanałów)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Disney+ 12 miesięcy za 0zł"
-            ],
-
-            "color": "#00D5A7"
-        },
-        {
             "header": "600 Mb/s + TV M 4K",
             "subHeader": "Upload do 100 Mb/s",
             "price": "75zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Giganagrywarka Basic w cenie!",
-                "Disney+ 12 miesięcy za 0zł"
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Giganagrywarka Basic w cenie!",
+                    "icon": "add_circle_outline"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
             ],
-
-            "color": "#df0b8e"
-        },
-        {
-            "header": "1 Gb/s + TV M 4K",
-            "subHeader": "Upload do 300 Mb/s",
-            "price": "85zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Giganagrywarka Basic w cenie!",
-                "Disney+ 12 miesięcy za 0zł"
-            ],
-
-            "color": "#009DF9"
+            "color": "#6061e6",
+            "ribbon": "Bestseller"
         },
         {
             "header": "1 Gb/s + TV L 4K",
             "subHeader": "Upload do 300 Mb/s",
             "price": "110zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV L (187 kanałów + 2 Cinemax)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Giganagrywarka Basic w cenie!",
-                "Disney+ 12 miesięcy za 0zł"
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV L (187 kanałów + 2 Cinemax)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Giganagrywarka Basic w cenie!",
+                    "icon": "add_circle_outline"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
             ],
-
+            "color": "#df0b8e",
+            "ribbon": "Najbogatszy"
+        },
+        {
+            "header": "300 Mb/s + TV M 4K",
+            "subHeader": "Upload do 50 Mb/s",
+            "price": "65zł",
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Giganagrywarka Basic w cenie!",
+                    "icon": "add_circle_outline"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
+            ],
+            "color": "#00D5A7",
+            "ribbon": "Ekonomiczny"
+        },
+        {
+            "header": "1 Gb/s + TV S 4K",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "75zł",
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV S (77 kanałów)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
+            ],
             "color": "#00D5A7"
+        },
+        {
+            "header": "1 Gb/s + TV M 4K",
+            "subHeader": "Upload do 300 Mb/s",
+            "price": "85zł",
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Giganagrywarka Basic w cenie!",
+                    "icon": "add_circle_outline"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
+            ],
+            "color": "#009DF9"
         },
         {
             "header": "600 Mb/s + TV M 4K",
             "subHeader": "Upload do 100 Mb/s",
             "price": "95zł",
-            "periodWithoutSubscription": "3 miesiące bez abonamentu!",
-            "tvPacket": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
-            "decoder": "Dekoder Evobox 4K",
-
-            "extras" : [
-                "Giganagrywarka Basic w cenie!",
-                "Disney+ 12 miesięcy za 0zł"
+            "details": [
+                {
+                    "name": "3 miesiące bez abonamentu!",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Pakiet TV M (99 kanałów + 2 Cinemax i 4 Nick)",
+                    "icon": "tv"
+                },
+                {
+                    "name": "Dekoder Evobox 4K",
+                    "icon": "inbox"
+                },
+                {
+                    "name": "Giganagrywarka Basic w cenie!",
+                    "icon": "add_circle_outline"
+                },
+                {
+                    "name": "Disney+ 12 miesięcy za 0zł",
+                    "icon": "add_circle_outline"
+                }
             ],
-
             "color": "#009DF9"
         }
     ],
@@ -194,5 +272,140 @@
     ],
 
     "internet24MonthsOfferTerms" : "„Prezentowane oferty Netii S.A.: „GigaEmocje II – rabat 3 mies.”, „GigaEmocje II” obowiązują przy zawarciu Umowy na czas określony 24 pełnych Okresów Rozliczeniowych, przy jednoczesnym korzystaniu z rabatów za e-fakturę (5 zł) oraz zgody marketingowe (5 zł). W przypadku rezygnacji lub niespełnienia warunków przyznania rabatów, cena wzrośnie o 10 zł. Szybki Internet Max (300, 600, 1000) stanowi wyłącznie nazwę marketingową. Do Pakietu M / M 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe 6 kanałów: Nick Jr., Nickelodeon Polska, Nicktoons, TeenNick, Cinemax, Cinemax 2. Do Pakietu L / L 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe 2 kanały: Cinemax, Cinemax 2. Do Pakietów S 4K, M 4K, L 4K Abonent otrzymuje promocyjnie na 24 Okresy Rozliczeniowe dodatkowo kanał Insight TV 4K. Usługa Internetowa oparta jest na parametrach jakości wynikających z maksymalnych parametrów technicznych danej technologii, w jakiej świadczona jest Usługa Internetowa lub wynikających z ofertowych ustawień technicznych łącza. Parametry świadczenia Usługi Internetowej, w szczególności parametry prędkości oraz wpływu innych Usług na Usługę Internetową, dostępne są na stronie netia.pl. Najlepszy Internet 5G w Polsce odnosi się do najwyższej technologicznej prędkości Internetu 5G (dzięki wykorzystaniu pasma 2600 MHz TDD) i największego zasięgu populacyjnego.” *Podana przepustowość nie dotyczy technologii HFC i CU.",
-    "internetTermlessOfferTerms" : "Prezentowana oferta Netii S.A.: „GigaEmocje II – Internet bez zobowiązania” obowiązuje przy zawarciu Umowy na czas nieokreślony, przy jednoczesnym korzystaniu z rabatu za e-fakturę (5 zł) oraz zgody marketingowe (5 zł). W przypadku rezygnacji lub niespełnienia warunków przyznania rabatów, cena wzrośnie o 10 zł. Prezentowana oferta nie uwzględnia cen za Usługi dodatkowe. Warunkiem skorzystania z Promocji jest zamówienie Usługi Internetowej z usługą Bezpieczny Internet 2. Szybki Internet Max (300, 600, 1000) stanowi wyłącznie nazwę marketingową. Usługa Internetowa oparta na parametrach jakości wynikających z maksymalnych parametrów technicznych danej technologii, w jakiej świadczona jest Usługa Internetowa, lub wynikających z ofertowych ustawień technicznych łącza. Parametry świadczenia Usługi Internetowej, w szczególności parametry prędkości oraz wpływu innych usług na Usługę Internetową, dostępne są na stronie netia.pl. *Podana przepustowość nie dotyczy technologii HFC i CU."
+    "internetTermlessOfferTerms" : "Prezentowana oferta Netii S.A.: „GigaEmocje II – Internet bez zobowiązania” obowiązuje przy zawarciu Umowy na czas nieokreślony, przy jednoczesnym korzystaniu z rabatu za e-fakturę (5 zł) oraz zgody marketingowe (5 zł). W przypadku rezygnacji lub niespełnienia warunków przyznania rabatów, cena wzrośnie o 10 zł. Prezentowana oferta nie uwzględnia cen za Usługi dodatkowe. Warunkiem skorzystania z Promocji jest zamówienie Usługi Internetowej z usługą Bezpieczny Internet 2. Szybki Internet Max (300, 600, 1000) stanowi wyłącznie nazwę marketingową. Usługa Internetowa oparta na parametrach jakości wynikających z maksymalnych parametrów technicznych danej technologii, w jakiej świadczona jest Usługa Internetowa, lub wynikających z ofertowych ustawień technicznych łącza. Parametry świadczenia Usługi Internetowej, w szczególności parametry prędkości oraz wpływu innych usług na Usługę Internetową, dostępne są na stronie netia.pl. *Podana przepustowość nie dotyczy technologii HFC i CU.",
+
+    "telephoneOffersNetiaMobile": [
+        {
+            "header": "Netia Standard",
+            "subHeader": "Z przeniesieniem numeru​",
+            "price": "20zł",
+
+            "details": [
+                {
+                    "name": "Pakiet danych: 2GB",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Połączenia na telefony komórkowe i stacjonarne w Polsce, SMSy, MMSy: Bez Limitu",
+                    "icon": "call"
+                },
+                {
+                    "name": "Bezpieczny Smartfon",
+                    "icon": "local_fire_department"
+                },
+                {
+                    "name": "ROAMING",
+                    "icon": "blur_circular"
+                }
+            ],
+
+            "color": "#00D5A7"
+        },
+        {
+            "header": "Netia Premium",
+            "subHeader": "Z przeniesieniem numeru​",
+            "price": "25zł",
+
+            "details": [
+                {
+                    "name": "Pakiet danych: 12GB",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Połączenia na telefony komórkowe i stacjonarne w Polsce, SMSy, MMSy: Bez Limitu",
+                    "icon": "call"
+                },
+                {
+                    "name": "Bezpieczny Smartfon",
+                    "icon": "local_fire_department"
+                },
+                {
+                    "name": "ROAMING",
+                    "icon": "blur_circular"
+                }
+            ],
+
+            "color": "#009DF9"
+        }
+    ],
+
+    "telephoneOffersNetiaMobile5G": [
+        {
+            "header": "Super 5G",
+            "subHeader": "Z przeniesieniem numeru​",
+            "price": "25zł",
+
+            "details": [
+                {
+                    "name": "Pakiet danych: 30GB",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Połączenia na telefony komórkowe i stacjonarne w Polsce, SMSy, MMSy: Bez Limitu",
+                    "icon": "call"
+                },
+                {
+                    "name": "Bezpieczny Smartfon",
+                    "icon": "local_fire_department"
+                },
+                {
+                    "name": "Tidal 24 msc. w ramach abonamentu",
+                    "icon": "music_note"
+                }
+            ],
+
+            "color": "#df0b8e"
+        },
+        {
+            "header": "VIP 5G",
+            "subHeader": "Z przeniesieniem numeru​",
+            "price": "30zł",
+
+            "details": [
+                {
+                    "name": "Pakiet danych: 72GB",
+                    "icon": "task_alt"
+                },
+                {
+                    "name": "Połączenia na telefony komórkowe i stacjonarne w Polsce, SMSy, MMSy: Bez Limitu",
+                    "icon": "call"
+                },
+                {
+                    "name": "Bezpieczny Smartfon",
+                    "icon": "local_fire_department"
+                },
+                {
+                    "name": "Tidal 24 msc. w ramach abonamentu",
+                    "icon": "music_note"
+                }
+            ],
+
+            "color": "#6061E5"
+        }
+    ],
+
+    "telephoneOffersLandlinePhone" : [
+        {
+            "header": "Netia Stacjonarny",
+            "subHeader": "Z przeniesieniem numeru​",
+            "price": "10zł",
+
+            "details": [
+                {
+                    "name": "Połączenia na telefony komórkowe i stacjonarne w Polsce, SMSy, MMSy: Bez Limitu",
+                    "icon": "call"
+                },
+                {
+                    "name": "Bez limitu w Unii na stacjonarne i do USA i Kanady na telefony stacjonarne oraz komórkowe.",
+                    "icon": "task_alt"
+                }
+            ],
+
+            "color": "#00bcbe"
+        }
+    ],
+
+    "telephoneNetiaMobileOfferTerms": "Prezentowana oferta obowiązuje obecnych klientów przy zawarciu Umowy na czas określony 24 pełnych Okresów Rozliczeniowych w ramach Promocji „Nowa oferta mobilna (5G)” przy jednoczesnym korzystaniu z rabatu za zgody marketingowe. Warunkiem skorzystania z Promocji jest jednoczesne zamówienie z Usługami Mobilnymi, dodatkowo płatnej usługi dodatkowej Bezpieczny Smartfon. Podana miesięczna opłata dotyczy wyłącznie Usługi Mobilnej z wyłączonymi usługami dodatkowymi.",
+    "telephoneNetiaMobile5GOfferTerms": "Prezentowana oferta obowiązuje obecnych klientów przy zawarciu Umowy na czas określony 24 pełnych Okresów Rozliczeniowych w ramach Promocji „Nowa oferta mobilna (5G)” przy jednoczesnym korzystaniu z rabatu za zgody marketingowe. Warunkiem skorzystania z Promocji jest jednoczesne zamówienie z Usługami Mobilnymi, dodatkowo płatnej usługi dodatkowej Bezpieczny Smartfon. Podana miesięczna opłata dotyczy wyłącznie Usługi Mobilnej z wyłączonymi usługami dodatkowymi. Szczegółowe Warunki Promocji oraz Cenniki dostępne są na stronie https://www.netia.pl/pl/pomoc/informacje-dla-abonentow/regulaminy-i-dokumenty.cena zawiera rabat za e-fakturę (5 zł) i zgody marketingowe (5 zł), dotyczy obecnych klientów Netii.",
+    "telephoneLandlinePhoneOfferTerms": "Prezentowana oferta Netii S.A. “GigaEmocje” obowiązuje przy zawarciu Umowy na czas określony 24 pełnych Okresów Rozliczeniowych; Warunkiem skorzystania z Promocji jest zamówienie Usługi Telefonicznej z dodatkowo płatną usługą Identyfikacja Numeru. cena zawiera rabat za e-fakturę (5 zł) i zgody marketingowe (5 zł)"
 }

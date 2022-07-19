@@ -19,6 +19,10 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navigate(url: string, fragment: string) {
+    this.router.navigate(['{{ url }}'], { fragment: '#contact' });
+  }
+
   scroll(target: string) {
     if (this.router.url === '/')
       this.scroller.scrollToAnchor(target);

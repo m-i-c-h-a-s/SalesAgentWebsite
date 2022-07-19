@@ -1,5 +1,151 @@
 <app-navbar></app-navbar>
-    <div class="telephone-container" style="width: 100%; height: 100%; color: black;">
 
+<div class="telephone-container">
+    <h1 class="telephone-header" data-aos="fade-down" data-aos-duration="300">Telefon</h1>
+    <h1 class="offers-header" data-aos="zoom-in" data-aos-duration="700">Netia Mobile</h1>
+    <div class="offers-list">
+        <div class="offer"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let offer of telephoneOffersNetiaMobile"
+        >
+            <div class="offer-header" [ngStyle]="{'backgroundColor': offer.color}">
+                <h1>{{ offer.header }}</h1>
+                <p>{{ offer.subHeader }}</p>
+            </div>
+            <div class="offer-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': offer.color}">
+                        {{ offer.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <div *ngFor="let detail of offer.details; let i = index">
+                    <p>
+                        <mat-icon>{{ detail.icon }}</mat-icon>
+                        <span>{{ detail.name }}</span>
+                    </p>
+                    <hr *ngIf="i < offer.details.length-1">
+                </div>
+            </div>
+            <div class="offer-footer">
+                <button routerLink="/kontakt">Zadzwoń i zamów!</button>
+            </div>
+        </div>
+
+        <div class="offer-terms" data-aos="zoom-in" data-aos-duration="700">
+            {{ telephoneNetiaMobileOfferTerms }}
+        </div>
     </div>
+
+    <h1 class="offers-header" data-aos="zoom-in" data-aos-duration="700">Netia Mobile 5G</h1>
+    <div class="offers-list">
+        <div class="offer"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let offer of telephoneOffersNetiaMobile5G"
+        >
+            <div class="offer-header" [ngStyle]="{'backgroundColor': offer.color}">
+                <h1>{{ offer.header }}</h1>
+                <p>{{ offer.subHeader }}</p>
+            </div>
+            <div class="offer-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': offer.color}">
+                        {{ offer.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <div *ngFor="let detail of offer.details; let i = index">
+                    <p>
+                        <mat-icon>{{ detail.icon }}</mat-icon>
+                        <span>{{ detail.name }}</span>
+                    </p>
+                    <hr *ngIf="i < offer.details.length-1">
+                </div>
+            </div>
+            <div class="offer-footer">
+                <button routerLink="/kontakt">Zadzwoń i zamów!</button>
+            </div>
+        </div>
+
+        <div class="offer-terms" data-aos="zoom-in" data-aos-duration="700">
+            {{ telephoneNetiaMobile5GOfferTerms }}
+        </div>
+    </div>
+
+    <h1 class="offers-header" data-aos="zoom-in" data-aos-duration="700">Telefon stacjonarny</h1>
+    <div class="offers-list">
+        <div class="offer"
+             data-aos="flip-right"
+             data-aos-duration="700"
+             *ngFor="let offer of telephoneOffersLandlinePhone"
+        >
+            <div class="offer-header" [ngStyle]="{'backgroundColor': offer.color}">
+                <h1>{{ offer.header }}</h1>
+                <p>{{ offer.subHeader }}</p>
+            </div>
+            <div class="offer-body">
+                <span class="price">
+                    <h1 [ngStyle]="{'color': offer.color}">
+                        {{ offer.price }}
+                    </h1>
+                    <h3>miesięcznie</h3>
+                </span>
+                <div *ngFor="let detail of offer.details; let i = index">
+                    <p>
+                        <mat-icon>{{ detail.icon }}</mat-icon>
+                        <span>{{ detail.name }}</span>
+                    </p>
+                    <hr *ngIf="i < offer.details.length-1">
+                </div>
+            </div>
+            <div class="offer-footer">
+                <button routerLink="/kontakt">Zadzwoń i zamów!</button>
+            </div>
+        </div>
+
+        <div class="offer-terms" data-aos="zoom-in" data-aos-duration="700">
+            {{ telephoneLandlinePhoneOfferTerms }}
+        </div>
+    </div>
+
+    <div class="offer-benefits">
+        <div class="benefit" data-aos="fade-up" data-aos-duration="800">
+            <div class="benefit-element">
+                <img src="https://www.netia.pl/netia/media/netia/oferta/produkty-dodatkowe/grafiki/bezpieczny-smartfon/bezpieczny-smartfon-455x455.png?ext=.png" alt="img">
+            </div>
+            <div class="benefit-element">
+                <div class="benefit-element-text">
+                    <h1>Bezpieczny smartfon</h1>
+                    <ul>
+                        <li>pakiet antywirusowy na smartfon,</li>
+                        <li>jedna licencja,</li>
+                        <li>bezpieczne zakupy online,</li>
+                        <li>ochrona rodzicielska,</li>
+                        <li>2 miesiące za 0 ZŁ, potem 3,00 zł/miesiąc,</li>
+                        <li>możesz zrezygnować w dowolnej chwili.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="benefit" data-aos="fade-up" data-aos-duration="800">
+            <div class="benefit-element">
+                <div class="benefit-element-text">
+                    <h1>Tidal</h1>
+                    <ul>
+                        <li>Słuchaj ulubionej muzyki całkowicie bez reklam​</li>
+                        <li>Dzięki bibliotece TIDAL zawierającej ponad 60 milionów utworów i 250 tysięcy nagrań wideo doświadczysz najlepszych wrażeń muzycznych</li>
+                        <li>Korzystaj z TIDAL na wielu urządzeniach: komputerze, telefonie, tablecie, a nawet telewizorze i wielu innych</li>
+                        <li>TIDAL otrzymasz w cenie abonamentu na cały czas trwania umowy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="benefit-element">
+                <img src="https://www.netia.pl/Netia/media/img/tidal/455_T.png?ext=.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
 <app-footer></app-footer>

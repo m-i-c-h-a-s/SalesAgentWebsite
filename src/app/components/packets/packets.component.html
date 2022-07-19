@@ -6,6 +6,7 @@
              data-aos-duration="700"
              *ngFor="let packet of packetsData"
         >
+            <div class="ribbon ribbon-top-right" *ngIf="packet.ribbon"><span>{{ packet.ribbon }}</span></div>
             <div class="packet-header" [ngStyle]="{'backgroundColor': packet.color}">
                 <h1>{{ packet.header }}</h1>
                 <p>{{ packet.subHeader }}</p>
@@ -17,30 +18,16 @@
                     </h1>
                     <h3>miesięcznie</h3>
                 </span>
-                <p>
-                    <mat-icon>task_alt</mat-icon>
-                    <span>{{ packet.periodWithoutSubscription }}</span>
-                </p>
-                <hr>
-                <p>
-                    <mat-icon>tv</mat-icon>
-                    <span>{{ packet.tvPacket }}</span>
-                </p>
-                <hr>
-                <p>
-                    <mat-icon>inbox</mat-icon>
-                    <span>{{ packet.decoder }}</span>
-                </p>
-                <div *ngFor="let extra of packet.extras">
-                    <hr>
+                <div *ngFor="let detail of packet.details; let i = index">
                     <p>
-                        <mat-icon>add_circle_outline</mat-icon>
-                        <span>{{ extra }}</span>
+                        <mat-icon>{{ detail.icon }}</mat-icon>
+                        <span>{{ detail.name }}</span>
                     </p>
+                    <hr *ngIf="i < packet.details.length-1">
                 </div>
             </div>
             <div class="packet-footer">
-                <button (click)="scroll('contact')">Zadzwoń i zamów!</button>
+                <button routerLink="/kontakt">Zadzwoń i zamów!</button>
             </div>
         </div>
     </div>

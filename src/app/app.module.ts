@@ -17,6 +17,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { TvPageComponent } from './components/tv-page/tv-page.component';
 import { InternetPageComponent } from './components/internet-page/internet-page.component';
 import { TelephonePageComponent } from './components/telephone-page/telephone-page.component';
+import { ContactPageComponent } from './components/contact-page/contact-page.component';
+import { PacketsPageComponent } from './components/packets-page/packets-page.component';
+import { AnimatedCounterDirective } from './directives/animated-counter.directive';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { TelephonePageComponent } from './components/telephone-page/telephone-pa
     LandingPageComponent,
     TvPageComponent,
     InternetPageComponent,
-    TelephonePageComponent
+    TelephonePageComponent,
+    ContactPageComponent,
+    PacketsPageComponent,
+    AnimatedCounterDirective
   ],
   imports: [
     BrowserModule,
