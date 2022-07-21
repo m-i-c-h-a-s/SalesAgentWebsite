@@ -1,27 +1,65 @@
 # SalesAgentWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+## Table of contents
 
-## Development server
+* [General info](#general-info)
+* [Presentation of the application](#presentation-of-the-application)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## General info
 
-## Code scaffolding
+This is a website for the sales representative, with information about the offer and contact details. The project is created using Angular framework.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Presentation of the application
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h3>
+  <p align="center">Landing page</p>
+</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196892-16b32676-ab10-4df5-a0fa-5ee76721eae8.png" align="middle" height="67%" width="67%">
+</p>
 
-## Running unit tests
+<h3>
+  <p align="center">The offer</p>
+</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196918-70b7a46f-5122-4091-bfee-40d9369a1ca8.png" align="middle" height="67%" width="67%">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196927-c7bef6bd-9f00-47d1-845c-68327d282f60.png" align="middle" height="67%" width="67%">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196934-3845daf0-6ea5-4638-b17b-6c724ede13c2.png" align="middle" height="67%" width="67%">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196937-2e9b825e-ad05-4002-89e4-1fa6db0a1898.png" align="middle" height="67%" width="67%">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196945-36b005d7-12d7-4053-81ab-e43cd4c7d016.png" align="middle" height="67%" width="67%">
+</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3>
+  <p align="center">The contact page</p>
+</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/81260270/180196950-1963e3fd-34b6-424c-84d7-4c60534fc517.png" align="middle" height="67%" width="67%">
+</p>
 
-## Running end-to-end tests
+## Technologies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Project is created with:
 
-## Further help
+* Node.js v16.14.0
+* npm 8.13.2
+* Angular CLI: 13.2.6
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Setup
+
+To launch this project in a web browser, run the following commands:
+
+`npm install`
+
+`npm start`
